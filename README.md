@@ -16,3 +16,18 @@
 
 SFT improves EM from 66.0 to 88.5, while speculative decoding preserves the target model's accuracy; MTP achieves the best measured speedup (1.74×).
 Fine-tuning the draft substantially improves acceptance (0.430 → 0.804), while EAGLE On-Policy improves acceptance over teacher forcing (0.276 → 0.505).
+
+## SQuAD — 1,000 Training Samples, 1-Shot Evaluation
+
+
+Method                    EM      F1        ms/q     Speed    Accept
+----------------------------------------------------------------------
+Base+1shot             61.00   64.78      938.29     0.99x     0.000
+SFT                    93.00   94.47      931.49     1.00x     0.000
+Tbase+Dbase            61.00   64.78     6277.51     0.15x     0.619
+Tsft+Dbase             93.00   94.47     1060.79     0.88x     0.329
+Tbase+Dsft             61.00   64.78     8126.37     0.11x     0.402
+Tsft+Dsft              93.00   94.47      831.38     1.12x     0.646
+MTP                    93.00   94.47      723.92     1.29x     0.443
+EAGLE-TF               93.00   94.47     1585.57     0.59x     0.332
+EAGLE-OnPolicy         93.00   94.47     1617.35     0.58x     0.535

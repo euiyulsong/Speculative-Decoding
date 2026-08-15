@@ -36,3 +36,8 @@ Fine-tuning the draft substantially improves acceptance (0.430 → 0.804), while
 | SFT | 93.00 | 94.47 |  187.56  | 1.00× | 0.000 |
 | **EAGLE3-HF-OffPolicy** | **93.00** | **94.47** | **482.06** | **0.39×** | 0.625 |
 | **EAGLE3-HF-OnPolicy** | **93.00** | **94.47** | **468.75** | **0.40×** | **0.676** |
+
+| Method | EM | F1 | Latency (ms/q) | Speed |
+|---|---:|---:|---:|---:|
+| Qwen3.5-2B   |61.00 |64.78  | 953.86 |  1.00x|
+| Qwen3.5-2B+MTP | 61.00|64.78  |942.63  | 1.01x |

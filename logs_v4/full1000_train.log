@@ -1,0 +1,30 @@
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  64%|██████▍   | 204/320 [00:00<00:00, 2032.17it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 2047.75it/s]
+trainable params: 1881825088
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+ep 0 step 10/375 loss(last80)=0.6725
+ep 0 step 20/375 loss(last80)=0.2155
+ep 0 step 30/375 loss(last80)=0.4576
+ep 0 step 40/375 loss(last80)=0.4023
+ep 0 step 50/375 loss(last80)=0.3425
+ep 0 step 60/375 loss(last80)=0.2798
+ep 0 step 70/375 loss(last80)=0.3455
+ep 0 step 80/375 loss(last80)=0.2419
+ep 0 step 90/375 loss(last80)=0.3365
+ep 0 step 100/375 loss(last80)=0.4118
+ep 0 step 110/375 loss(last80)=0.4051
+ep 0 step 120/375 loss(last80)=0.2742
+ep 1 step 130/375 loss(last80)=0.2279
+ep 1 step 140/375 loss(last80)=0.0441
+ep 1 step 150/375 loss(last80)=0.2295
+ep 1 step 160/375 loss(last80)=0.1433
+ep 1 step 170/375 loss(last80)=0.2035
+ep 1 step 180/375 loss(last80)=0.0769
+ep 1 step 190/375 loss(last80)=0.1513
+ep 1 step 200/375 loss(last80)=0.0911
+ep 1 step 210/375 loss(last80)=0.0856
+ep 1 step 220/375 loss(last80)=0.2794
+ep 1 step 230/375 loss(last80)=0.1346
+ep 1 step 240/375 loss(last80)=0.1204
+ep 1 step 250/375 loss(last80)=0.1249
+ep 2 step 260/375 loss(last80)=0.0368

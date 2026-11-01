@@ -34,3 +34,11 @@ ep 2 step 280/375 loss(last80)=0.0496
 ep 2 step 290/375 loss(last80)=0.0686
 ep 2 step 300/375 loss(last80)=0.1132
 ep 2 step 310/375 loss(last80)=0.0450
+ep 2 step 320/375 loss(last80)=0.1104
+ep 2 step 330/375 loss(last80)=0.1212
+ep 2 step 340/375 loss(last80)=0.0691
+ep 2 step 350/375 loss(last80)=0.0411
+ep 2 step 360/375 loss(last80)=0.0388
+ep 2 step 370/375 loss(last80)=0.0685
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:09<00:00,  9.04s/it]Writing model shards: 100%|██████████| 1/1 [00:09<00:00,  9.04s/it]
+SAVED /home/euiyul/.claude/jobs/81b8ceb3/tmp/models/lora1000_raw

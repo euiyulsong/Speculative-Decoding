@@ -1,0 +1,5 @@
+[draft] start
+[draft] FAILED (see logs_vllm_squad/draft.log)
+[mtp] start
+RESULT {"task": "squad_1shot", "method": "mtp", "target": "Qwen/Qwen3.5-2B", "draft": null, "n": 200, "EM": 65.0, "F1": 67.22380952380952, "ms_per_q": 176.62694234510127, "accept_rate": 0.46701077199281865, "mean_accepted_per_draft": 1.8680430879712746, "sample_outputs": ["Denver Broncos", "Carolina Panthers", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California"]}
+DONE

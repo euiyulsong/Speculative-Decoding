@@ -59,3 +59,43 @@ Fine-tuning the draft substantially improves acceptance (0.430 → 0.804), while
 - An N-gram match was found in **82.8%** of decoding steps.
 - Only **12.1%** of proposed tokens were accepted by the target model.
 - Despite the relatively low acceptance rate, N-gram decoding achieved substantially lower end-to-end latency in this experiment.
+
+## vLLM Reproduction (vLLM 0.18.1, Qwen3.5-2B, batch size 1, greedy)
+
+These runs use vLLM's built-in speculative decoding (`vllm_squad_bench.py`, `gsm8k_vllm_bench.py`) instead of the HF loops above. Latency is per query, one request at a time, after a warm-up request.
+
+### SQuAD 1-shot (200 eval items, `results_vllm_squad.jsonl`)
+
+| Method | EM | F1 | ms/q | Speed vs base | Accept rate | Accepted / draft |
+|---|---:|---:|---:|---:|---:|---:|
+| Base | 66.00 | 67.42 | 165.5 | 1.00× | – | – |
+| N-gram (K=4) | 65.00 | 67.22 | 165.9 | 1.00× | 0.237 | 0.94 |
+| MTP (K=4) | 65.00 | 67.22 | 176.6 | 0.94× | 0.467 | 1.87 |
+
+The base EM (66.00) matches the README's 1-shot base row. MTP has the higher acceptance rate but is slightly slower here.
+
+### GSM8K 1-shot (first 100 test items, `results_vllm_gsm8k.jsonl`)
+
+| Method | Accuracy | ms/q | Speed vs base | Accept rate |
+|---|---:|---:|---:|---:|
+| Base | 53.0 | 504.9 | 1.00× | – |
+| N-gram (K=4) | 26.0 | 472.5 | 1.07× | 0.230 |
+| MTP (K=4) | 51.0 | 402.5 | 1.25× | 0.664 |
+
+### Open issues
+
+- **Draft model (Qwen3.5-0.8B) is not reproduced in vLLM.** vLLM 0.18.1 rewrites Qwen3.5 draft configs to the MTP loader, and the hidden sizes do not match (2048 vs 1024). Setting `method: draft_model` does not avoid this.
+- **N-gram accuracy drop on GSM8K is not explained.** Greedy speculative output should match the base output, but 79 of 100 items diverge (median divergence at character 59). The base model is deterministic across runs (30/30 identical), and K=1 also diverges (7/30 identical to base on 30 items), so the cause is not only multi-token verification. The likely candidates are bf16 numerical differences between the verify forward and the decode forward, or state handling in Qwen3.5's linear-attention layers. An fp32 comparison has not been run yet.
+- **SFT rows are not reproduced.** Full fine-tuning of the 2B target does not fit in a 24 GB GPU with AdamW.
+- **Math and code:** GSM8K is run on 100 items only. HumanEval is not yet run with vLLM.
+
+### Reproduce
+
+```bash
+# vLLM 0.18.1 with torch 2.10 (CUDA 12.8). vLLM 0.22+ wheels need CUDA 13 drivers.
+python3 prepare.py                 # writes train.jsonl / eval.jsonl
+bash run_squad_vllm.sh             # base, ngram, draft, mtp on SQuAD
+bash run_gsm8k_vllm.sh             # base, ngram, mtp on GSM8K
+python3 ngram_k1_check.py 1        # losslessness check, 30 items
+python3 base_determinism_check.py  # base run-to-run determinism
+```

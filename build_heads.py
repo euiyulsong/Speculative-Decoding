@@ -32,7 +32,7 @@ def extract(args):
     from transformers import AutoModelForCausalLM, AutoTokenizer
     tok = AutoTokenizer.from_pretrained(args.model)
     model = AutoModelForCausalLM.from_pretrained(args.model, dtype=torch.bfloat16).cuda().eval()
-    rows = [json.loads(x) for x in open(TRAIN, encoding="utf-8")]
+    rows = [json.loads(x) for x in open(args.train_file, encoding="utf-8")]
     data = []
     with torch.inference_mode():
         for r in rows:
@@ -263,6 +263,7 @@ def main():
     ap.add_argument("--epochs", type=int, default=3)
     ap.add_argument("--lr", type=float, default=1e-3)
     ap.add_argument("--max_pos", type=int, default=0, help="Medusa: max positions per sequence per head (0 = all)")
+    ap.add_argument("--train_file", default=TRAIN, help="extract: training prompts (train.jsonl = 256, train1000.jsonl = 1000)")
     args = ap.parse_args()
     if args.stage == "extract":
         extract(args)

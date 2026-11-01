@@ -93,6 +93,8 @@ def medusa(args):
                 if end <= start:  # sequence too short for this head
                     continue
                 t = torch.arange(start, end, device="cuda")
+                if args.max_pos and t.numel() > args.max_pos:  # subsample positions for speed
+                    t = t[torch.randperm(t.numel(), device="cuda")[: args.max_pos]]
                 logits = heads[k](blocks[k](h[t]))
                 loss = loss + F.cross_entropy(logits.float(), ids[t + 2 + k])
             if torch.is_tensor(loss):
@@ -260,6 +262,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--epochs", type=int, default=3)
     ap.add_argument("--lr", type=float, default=1e-3)
+    ap.add_argument("--max_pos", type=int, default=0, help="Medusa: max positions per sequence per head (0 = all)")
     args = ap.parse_args()
     if args.stage == "extract":
         extract(args)

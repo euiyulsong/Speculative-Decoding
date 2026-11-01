@@ -1,0 +1,44 @@
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 209/320 [00:00<00:00, 2077.51it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 2099.43it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+trainable params: 31,260,672 || all params: 1,913,085,760 || trainable%: 1.6340
+ep 0 step 10/375 loss(last80)=0.6994
+ep 0 step 20/375 loss(last80)=0.2129
+ep 0 step 30/375 loss(last80)=0.3579
+ep 0 step 40/375 loss(last80)=0.3261
+ep 0 step 50/375 loss(last80)=0.3005
+ep 0 step 60/375 loss(last80)=0.3008
+ep 0 step 70/375 loss(last80)=0.2930
+ep 0 step 80/375 loss(last80)=0.2033
+ep 0 step 90/375 loss(last80)=0.2700
+ep 0 step 100/375 loss(last80)=0.2807
+ep 0 step 110/375 loss(last80)=0.3157
+ep 0 step 120/375 loss(last80)=0.3234
+ep 1 step 130/375 loss(last80)=0.1606
+ep 1 step 140/375 loss(last80)=0.0614
+ep 1 step 150/375 loss(last80)=0.2636
+ep 1 step 160/375 loss(last80)=0.1067
+ep 1 step 170/375 loss(last80)=0.1217
+ep 1 step 180/375 loss(last80)=0.1140
+ep 1 step 190/375 loss(last80)=0.1309
+ep 1 step 200/375 loss(last80)=0.1536
+ep 1 step 210/375 loss(last80)=0.0724
+ep 1 step 220/375 loss(last80)=0.1716
+ep 1 step 230/375 loss(last80)=0.2029
+ep 1 step 240/375 loss(last80)=0.1153
+ep 1 step 250/375 loss(last80)=0.0885
+ep 2 step 260/375 loss(last80)=0.0707
+ep 2 step 270/375 loss(last80)=0.0145
+ep 2 step 280/375 loss(last80)=0.0496
+ep 2 step 290/375 loss(last80)=0.0686
+ep 2 step 300/375 loss(last80)=0.1132
+ep 2 step 310/375 loss(last80)=0.0450
+ep 2 step 320/375 loss(last80)=0.1104
+ep 2 step 330/375 loss(last80)=0.1212
+ep 2 step 340/375 loss(last80)=0.0691
+ep 2 step 350/375 loss(last80)=0.0411
+ep 2 step 360/375 loss(last80)=0.0388
+ep 2 step 370/375 loss(last80)=0.0685
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:09<00:00,  9.04s/it]Writing model shards: 100%|██████████| 1/1 [00:09<00:00,  9.04s/it]
+SAVED /home/euiyul/.claude/jobs/81b8ceb3/tmp/models/lora1000_raw

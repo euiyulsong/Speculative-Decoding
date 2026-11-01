@@ -1,0 +1,10 @@
+[exact] base
+[exact] draft
+FileNotFoundError: [Errno 2] No such file or directory: 'logs_v3/exact_draft.json'
+[zero_draft] squad
+[zero_draft] gsm8k
+[lora_draft] squad
+[lora_draft] gsm8k
+[full_draft] squad
+[full_draft] gsm8k
+DONE_DRAFT

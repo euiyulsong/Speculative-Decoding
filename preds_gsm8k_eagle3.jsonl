@@ -1,0 +1,100 @@
+{"output": " 16-3-4 = <<16-3-4=9>>9", "correct": 0.0}
+{"output": " 2+1 = <<2+1=3>>3", "correct": 0.0}
+{"output": " $80,000 - $50,000 = $30,000", "correct": 0.0}
+{"output": " 3 sprints 3 times a week = 9 sprints", "correct": 0.0}
+{"output": " 20*3 = <<20*3=60>>60 cups of feed", "correct": 1.0}
+{"output": " 16/2 = <<16/2=8>>8 glasses cost only 60% of the price.\n8 * 60% of $5 = 8 * 0.60 * $5 = 8 * 0.60 * 5 = 24", "correct": 0.0}
+{"output": " Seattle has 20 sheep.\nCharleston has 4 times as many sheep as Seattle, so Charleston has 4*20 = <<4*20=80>>80 sheep.\nToulouse has twice as many sheep as Charleston, so Toulouse has 2*80 = <<2*80=160>>160 sheep.\nToulouse, Charleston, and Seattle have 20+80+160 = <<20+80+160=260>>260 sheep together.", "correct": 0.0}
+{"output": " 200/2 = <<200/2=100>>100 minutes normally.\n200/2 - 20 = <<200/2 - 20=80>>80 minutes after restart.", "correct": 0.0}
+{"output": " 3*60 + 2*60 + 2*30 + 1.5*30 + 2.5*80 = 180 + 120 + 60 + 45 + 200 = 585", "correct": 0.0}
+{"output": " Eliza's earnings for the first 40 hours are 40 * $10 = $400.\nEliza's overtime pay for 5 hours is 5 * $10 * 1.2 = $60.\nEliza's total earnings for this week are $400 + $60 = $460.", "correct": 0.0}
+{"output": " 60+60*3=240", "correct": 0.0}
+{"output": " 3*68 = $204", "correct": 0.0}
+{"output": " $90 / $1.5 = 60", "correct": 0.0}
+{"output": " 5 * 2 = <<5*2=10>>10 vacuum cleaners at the red house.\n10 + 2 = 12 vacuum cleaners at the green house.\n12 * 3 = 36 vacuum cleaners at the orange house.\n36 + 10 = 46 vacuum cleaners started with.", "correct": 0.0}
+{"output": " 20% of 20 = 4", "correct": 0.0}
+{"output": " jewelry market will go up 2.5% = $5,000 * 0.025 = $125", "correct": 0.0}
+{"output": " 80+150 = <<80+150=230>>230 miles", "correct": 0.0}
+{"output": " $20 * 50 * 35 = <<20 * 50 * 35=35000>>35000", "correct": 0.0}
+{"output": " 3 egg omelet every morning for breakfast.  4 weeks = 4*4 = 16.  16*3 = 48", "correct": 0.0}
+{"output": " 12 - 4 = <<12 - 4 = 8>>8 miles in the remaining distance.", "correct": 0.0}
+{"output": " 10 liters of orange drink that are two-thirds water means 10 * 2/3 = 20/3 liters of water.\n15 liters of pineapple drink that is three-fifths water means 15 * 3/5 = 9 liters of water.\n20/3 + 9 = 20/3 + 27/3 = 47/3 liters of water.", "correct": 0.0}
+{"output": " Samantha is now 31, so Raymond is now 31-6 = <<31-6=25>>25 years old.\nRaymond's son was born at the age of 23, so 25-23 = <<25-23=2>>2 years ago.", "correct": 0.0}
+{"output": " 3+2+3 = <<3+2+3=8>>8", "correct": 0.0}
+{"output": " 4 hours", "correct": 0.0}
+{"output": " $19.50 / 0.75 = $26", "correct": 0.0}
+{"output": " $50 - $12 - (5 × $3) - (4 × $1.50) = $50 - $12 - $15 - $6 = $17", "correct": 0.0}
+{"output": " 3*16.50 = <<3*16.50=49.50>>49.50 dollars for shorts, 3*22.50 = <<3*22.50=67.50>>67.50 dollars for pants, and 3*42 = <<3*42=126>>126 dollars for shoes.\n49.50+67.50+126 = <<49.50+67.50+126=243>>243 dollars", "correct": 0.0}
+{"output": " 60 * 4.00 = <<60 * 4.00=240.00>>240.00", "correct": 0.0}
+{"output": " 60-15 = 45", "correct": 0.0}
+{"output": " the other costs twice as much = 33*2 = 66", "correct": 0.0}
+{"output": " 7:11 means 7+11 = 18 parts. 162/18 = 9. 9*11 = 99", "correct": 0.0}
+{"output": " half the first one is 80/2 = 40. 20 more than 40 is 60. 25% more than 80 is 100.", "correct": 1.0}
+{"output": " 10 * .5 = 5", "correct": 0.0}
+{"output": " 30+110 = <<30+110=140>>140", "correct": 0.0}
+{"output": " half of Raymond's jewels = 40/2 = 20", "correct": 0.0}
+{"output": " 40/20 = 2", "correct": 0.0}
+{"output": " 2 yogurts a day * 30 days = 60 yogurts", "correct": 0.0}
+{"output": " 13-8 = <<13-8=5>>5", "correct": 0.0}
+{"output": " 60/3 = <<60/3=20>>20 miles the first day.\n20+20+20 = <<20+20+20=60>>60 miles altogether", "correct": 0.0}
+{"output": " she can run at 12 miles per hour", "correct": 0.0}
+{"output": " Suzy’s iPhone is 1 year old, Ben's iPhone is two times older than Suzy's iPhone, so Ben's iPhone is 2*1 = 2 years old.\nBrandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4*2 = 8 years old.", "correct": 0.0}
+{"output": " 400+300 = 700", "correct": 0.0}
+{"output": " 5 × 8 = 40", "correct": 0.0}
+{"output": " 2000 - 1800 = 200", "correct": 0.0}
+{"output": " 20 * $2.00 = <<20 * $2.00=40.00>>40.00 revenue", "correct": 1.0}
+{"output": " Monday: 5 * 4 = 20 hours", "correct": 0.0}
+{"output": " 80+220+23 = <<80+220+23=323>>323", "correct": 0.0}
+{"output": " blue ties = $200 / $40 = $5", "correct": 0.0}
+{"output": " 4/6 = 2/3", "correct": 0.0}
+{"output": " 15*8 = <<15*8=120>>120 units in the building.\n3/4 of 120 = 120*3/4 = <<120*3/4=90>>90 unoccupied units", "correct": 0.0}
+{"output": " 252/24 = <<252/24=10.5>>10.5", "correct": 0.0}
+{"output": " 3 hours", "correct": 0.0}
+{"output": " 15/1/2 = 75/2 = 37.5", "correct": 1.0}
+{"output": " 60-40 = $20", "correct": 0.0}
+{"output": " Patchy has had 12*3 = <<12*3=36>>36 adopted kittens, while Trixie has had 12. The Doubtfire family now have 7+36+12 = <<7+36+12=55>>55 kittens.", "correct": 0.0}
+{"output": " 30/2 = <<30/2=15>>15", "correct": 0.0}
+{"output": " 42/7 = <<42/7=6>>6", "correct": 0.0}
+{"output": " 5000 - 3755 = 1245", "correct": 0.0}
+{"output": " $40.00 + 25% of $40.00 + $3.00 + $4.00", "correct": 0.0}
+{"output": " 6 clusters of 20 fruit each = 6 × 20 = 120 fruit.\n120 + 67 = 187 raspberries", "correct": 0.0}
+{"output": " 25-1-20% of 25-2 = 25-1-5 = 19", "correct": 0.0}
+{"output": " $500 + $800 = $1300", "correct": 0.0}
+{"output": " 5% of $50,000 = 0.05 * 50,000 = 2,500", "correct": 0.0}
+{"output": " the first half of the year is 6 months, so 6*140 = <<6*140=840>>840", "correct": 0.0}
+{"output": " 100/4 = <<100/4=25>>25 miles", "correct": 0.0}
+{"output": " 2 hours × 3 times a week = 6 hours", "correct": 0.0}
+{"output": " 4 × 5 × 2 + 4 × 5 × 1 = 40", "correct": 0.0}
+{"output": " 35 fewer rubies than diamonds means 175-35 = 140 rubies.\ntwice the number of emeralds than the rubies means 140*2 = 280 emeralds.\n175+140+280 = 595", "correct": 0.0}
+{"output": " 60/5 = 12", "correct": 0.0}
+{"output": " $100 - (5 × 8) = $100 - 40 = $60", "correct": 0.0}
+{"output": " 5*15*15*5 = 5625", "correct": 0.0}
+{"output": " 20 + 2*20 = 20 + 40 = 60", "correct": 0.0}
+{"output": " 43*3 + 23*4 = 129 + 92 = 221", "correct": 0.0}
+{"output": " 150*5 = 750", "correct": 0.0}
+{"output": " 12*2.74 = 32.88 -> 33", "correct": 0.0}
+{"output": " 16/4 = 4", "correct": 0.0}
+{"output": " 180/110 = <<180/110=1.6363636363636363>>1.6363636363636363", "correct": 0.0}
+{"output": " Sarah does 400/4 = <<400/4=100>>100 pounds of laundry.\nRaymond does 100/2 = <<100/2=50>>50 pounds of laundry.\nDavid does 100*4 = <<100*4=400>>400 pounds of laundry.\n400-50 = <<400-50=350>>350", "correct": 0.0}
+{"output": " Vincent saves $2.50", "correct": 0.0}
+{"output": " 100*0.30 = <<100*0.30=30>>30", "correct": 0.0}
+{"output": " 24/6 = 4 liters of water each girl got.", "correct": 0.0}
+{"output": " 10+21+23-9-28 = <<10+21+23-9-28=27>>27", "correct": 0.0}
+{"output": " 4 times Grace's weight is 4 * 125 = 500.\nAlex's weight is 500 - 2 = 498.\nTheir combined weights are 125 + 498 = 623.", "correct": 0.0}
+{"output": " 3 rose bushes × 25 roses = 75 roses", "correct": 0.0}
+{"output": " 8+22 = <<8+22=40>>40", "correct": 0.0}
+{"output": " 48", "correct": 0.0}
+{"output": " 4+3+1.5 = 8.5", "correct": 0.0}
+{"output": " 600 + 10% of 600 = 600 + 60 = 660", "correct": 0.0}
+{"output": " 88,000/10 = <<88,000/10=8,800>>8,800", "correct": 0.0}
+{"output": " 16 * .75 = <<16 * .75=12>>12 gift bags.\n12 * $2 = <<12 * $2=$24>>$24", "correct": 0.0}
+{"output": " 20*10 = <<20*10=200>>200 lbs for the adults, 5*(10/2) = <<5*(10/2)=25>>25 lbs for the children, 200+25 = <<200+25=225>>225 lbs altogether", "correct": 0.0}
+{"output": " Marcia has 2+4 = <<2+4=6>>6 pets.\nJan has 3*6 = <<3*6=18>>18 pets.\n18+6+4 = <<18+6+4=28>>28", "correct": 0.0}
+{"output": " Corey is 12", "correct": 0.0}
+{"output": " Gerald would run the 400-meter hurdles in 38 - 2 = <<38 - 2=36>>36 seconds", "correct": 0.0}
+{"output": " the number of pet dogs and cats is 60+120 = 180", "correct": 0.0}
+{"output": " 200 - 2/5*200 = 200 - 160 = 40", "correct": 0.0}
+{"output": " 2/3 of 9 = 6", "correct": 0.0}
+{"output": " 32/2 = <<32/2=16>>16 ounces of sauce.\n16*3 = <<16*3=48>>48 tomatoes", "correct": 0.0}
+{"output": " 15", "correct": 0.0}
+{"output": " 2 potted plants on each of the 40 window ledges of her large country home.", "correct": 0.0}

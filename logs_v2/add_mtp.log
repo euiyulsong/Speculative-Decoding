@@ -1,0 +1,3 @@
+mtp tensors in base: 15
+single-file checkpoint: mtp.safetensors added alongside model.safetensors
+done

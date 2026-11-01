@@ -41,6 +41,13 @@ def build_speculative_config(args):
         return {"method": "draft_model", "model": args.draft, "num_speculative_tokens": K}
     if args.method == "mtp":
         return {"method": "mtp", "num_speculative_tokens": K}
+    if args.method == "ngram_gpu":  # vLLM's GPU-side n-gram proposer (no training)
+        return {"method": "ngram_gpu", "num_speculative_tokens": K,
+                "prompt_lookup_max": 4, "prompt_lookup_min": 1}
+    if args.method == "suffix":  # suffix decoding over prompt + past outputs (needs arctic-inference)
+        return {"method": "suffix", "num_speculative_tokens": K}
+    if args.method in ("medusa", "eagle3"):  # trained heads (head dir = checkpoint with config.json)
+        return {"method": args.method, "model": args.head, "num_speculative_tokens": K}
     raise ValueError(args.method)
 
 
@@ -56,7 +63,8 @@ def spec_counters(llm):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", choices=["base", "ngram", "draft", "mtp"], required=True)
+    ap.add_argument("--method", choices=["base", "ngram", "ngram_gpu", "suffix", "draft", "mtp", "medusa", "eagle3"], required=True)
+    ap.add_argument("--head", default=None, help="head dir for medusa/eagle3")
     ap.add_argument("--target", default="Qwen/Qwen3.5-2B")
     ap.add_argument("--draft", default="Qwen/Qwen3.5-0.8B")
     ap.add_argument("--data", default="eval.jsonl")

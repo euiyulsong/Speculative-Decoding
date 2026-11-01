@@ -1,1 +1,4 @@
 medusa epoch 0 done, steps 240
+medusa epoch 1 done, steps 480
+medusa epoch 2 done, steps 720
+medusa saved /home/euiyul/.claude/jobs/81b8ceb3/tmp/heads/full/medusa

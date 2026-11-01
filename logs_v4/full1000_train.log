@@ -28,3 +28,16 @@ ep 1 step 230/375 loss(last80)=0.1346
 ep 1 step 240/375 loss(last80)=0.1204
 ep 1 step 250/375 loss(last80)=0.1249
 ep 2 step 260/375 loss(last80)=0.0368
+ep 2 step 270/375 loss(last80)=0.0072
+ep 2 step 280/375 loss(last80)=0.0495
+ep 2 step 290/375 loss(last80)=0.0340
+ep 2 step 300/375 loss(last80)=0.0606
+ep 2 step 310/375 loss(last80)=0.0290
+ep 2 step 320/375 loss(last80)=0.0970
+ep 2 step 330/375 loss(last80)=0.1509
+ep 2 step 340/375 loss(last80)=0.0396
+ep 2 step 350/375 loss(last80)=0.0290
+ep 2 step 360/375 loss(last80)=0.0613
+ep 2 step 370/375 loss(last80)=0.0599
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:11<00:00, 11.06s/it]Writing model shards: 100%|██████████| 1/1 [00:11<00:00, 11.06s/it]
+SAVED /home/euiyul/.claude/jobs/81b8ceb3/tmp/models/full1000_raw

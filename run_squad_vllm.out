@@ -1,0 +1,5 @@
+[base] start
+RESULT {"task": "squad_1shot", "method": "base", "target": "Qwen/Qwen3.5-2B", "draft": null, "n": 200, "EM": 66.0, "F1": 67.42380952380952, "ms_per_q": 165.48991935982485, "accept_rate": null, "mean_accepted_per_draft": null, "sample_outputs": ["Denver Broncos", "Carolina Panthers", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California"]}
+[ngram] start
+RESULT {"task": "squad_1shot", "method": "ngram", "target": "Qwen/Qwen3.5-2B", "draft": null, "n": 200, "EM": 65.0, "F1": 67.22380952380952, "ms_per_q": 165.9010321153619, "accept_rate": 0.2368395255367121, "mean_accepted_per_draft": 0.938252427184466, "sample_outputs": ["Denver Broncos", "Carolina Panthers", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California"]}
+[draft] start

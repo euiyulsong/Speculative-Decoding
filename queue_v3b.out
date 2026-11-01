@@ -1,0 +1,6 @@
+[zero_mtp rerun] squad
+RESULT {"task": "squad_1shot", "method": "mtp", "target": "/home/euiyul/.cache/huggingface/hub/models--Qwen--Qwen3.5-2B/snapshots/15852e8c16360a2fea060d615a32b45270f8a8fc", "draft": null, "n": 200, "EM": 65.0, "F1": 67.22380952380952, "ms_per_q": 177.54558652552078, "accept_rate": 0.4652933273622929, "mean_accepted_per_draft": 1.8611733094491716, "sample_outputs": ["Denver Broncos", "Carolina Panthers", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California"]}
+[zero_mtp rerun] gsm8k
+RESULT {"task": "gsm8k_1shot", "method": "mtp", "target": "/home/euiyul/.cache/huggingface/hub/models--Qwen--Qwen3.5-2B/snapshots/15852e8c16360a2fea060d615a32b45270f8a8fc", "n": 100, "accuracy": 51.0, "ms_per_q": 403.20947271960904, "accept_rate": 0.6638849431818182, "mean_accepted_per_draft": 2.655539772727273, "sample_output": " Janet’s ducks lay 16 eggs per day.\nShe eats 3 eggs for breakfast.\nShe has 16-3 = 13 eggs left.\nShe sells 13 eggs at $2 per egg.\nShe makes 13*2 = $26 every day at the farmers' market.\n#### 26\n"}
+[full heads] extract
+[full heads] medusa

@@ -50,7 +50,8 @@ def build_prompt(demo, q):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", choices=["base", "ngram", "mtp", "draft"], required=True)
+    ap.add_argument("--method", choices=["base", "ngram", "ngram_gpu", "suffix", "mtp", "draft", "medusa", "eagle3"], required=True)
+    ap.add_argument("--head", default=None, help="head dir for medusa/eagle3")
     ap.add_argument("--target", default="Qwen/Qwen3.5-2B")
     ap.add_argument("--draft", default="Qwen/Qwen3.5-0.8B")
     ap.add_argument("--n", type=int, default=N_EVAL)
@@ -66,6 +67,7 @@ def main():
     class _A:  # reuse the speculative-config builder from the SQuAD script
         method = args.method
         draft = args.draft
+        head = args.head
 
     spec = build_speculative_config(_A)
     kwargs = dict(model=args.target, dtype="bfloat16", max_model_len=2048,

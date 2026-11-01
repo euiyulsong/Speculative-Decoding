@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:   7%|▋         | 22/320 [00:00<00:01, 218.03it/s]Loading weights:  14%|█▍        | 44/320 [00:00<00:01, 190.43it/s]Loading weights:  23%|██▎       | 74/320 [00:00<00:01, 223.70it/s]Loading weights:  30%|███       | 97/320 [00:00<00:01, 212.72it/s]Loading weights:  39%|███▉      | 125/320 [00:00<00:00, 232.78it/s]Loading weights:  47%|████▋     | 149/320 [00:00<00:00, 205.61it/s]Loading weights:  57%|█████▋    | 181/320 [00:00<00:00, 224.29it/s]Loading weights:  64%|██████▍   | 204/320 [00:00<00:00, 217.98it/s]Loading weights:  72%|███████▎  | 232/320 [00:01<00:00, 231.12it/s]Loading weights:  80%|████████  | 256/320 [00:01<00:00, 229.52it/s]Loading weights:  89%|████████▉ | 285/320 [00:01<00:00, 245.39it/s]Loading weights:  97%|█████████▋| 310/320 [00:01<00:00, 233.67it/s]Loading weights: 100%|██████████| 320/320 [00:01<00:00, 232.58it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+trainable params: 31,260,672 || all params: 1,913,085,760 || trainable%: 1.6340
+ep 0 step 10/96 loss(last80)=0.5224
+ep 0 step 20/96 loss(last80)=0.2078
+ep 0 step 30/96 loss(last80)=0.2401
+ep 1 step 40/96 loss(last80)=0.0797
+ep 1 step 50/96 loss(last80)=0.0320
+ep 1 step 60/96 loss(last80)=0.0636
+ep 2 step 70/96 loss(last80)=0.0437
+ep 2 step 80/96 loss(last80)=0.0661
+ep 2 step 90/96 loss(last80)=0.0314
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.07s/it]Writing model shards: 100%|██████████| 1/1 [00:04<00:00,  4.07s/it]
+SAVED /home/euiyul/.claude/jobs/81b8ceb3/tmp/models/lora2b_merged

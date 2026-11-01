@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:  12%|█▎        | 40/320 [00:00<00:00, 390.35it/s]Loading weights:  27%|██▋       | 85/320 [00:00<00:00, 417.16it/s]Loading weights:  43%|████▎     | 137/320 [00:00<00:00, 453.20it/s]Loading weights:  60%|██████    | 193/320 [00:00<00:00, 483.34it/s]Loading weights:  77%|███████▋  | 245/320 [00:00<00:00, 492.28it/s]Loading weights:  94%|█████████▍| 300/320 [00:00<00:00, 507.54it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 497.68it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+trainable params: 20,447,232 || all params: 772,840,256 || trainable%: 2.6457
+ep 0 step 10/96 loss(last80)=0.4334
+ep 0 step 20/96 loss(last80)=0.3323
+ep 0 step 30/96 loss(last80)=0.2014
+ep 1 step 40/96 loss(last80)=0.0907
+ep 1 step 50/96 loss(last80)=0.0282
+ep 1 step 60/96 loss(last80)=0.1192
+ep 2 step 70/96 loss(last80)=0.0789
+ep 2 step 80/96 loss(last80)=0.0340
+ep 2 step 90/96 loss(last80)=0.0189
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+SAVED /home/euiyul/.claude/jobs/81b8ceb3/tmp/models/lora_merged

@@ -1,0 +1,100 @@
+{"output": " Janet eats 3*3 = <<3*3=9>>9 eggs for breakfast.\nShe has 16-9 = <<16-9=7>>7 eggs left.\nShe sells 7*2 = <<7*2=14>>14 dollars every day at the farmers' market.", "correct": 0.0}
+{"output": " 2 + 2/2 = 2 + 1 = <<2+2/2=3>>3 bolts in total", "correct": 0.0}
+{"output": " The value of the house increased by 150%150% of $80,000 = $120,000.\nJosh's profit is $120,000 - $80,000 = $40,000", "correct": 0.0}
+{"output": " 3 sprints 3 times = 3 × 3 = 9 sprints.\n9 sprints × 60 meters = 540 meters", "correct": 0.0}
+{"output": " Wendi's flock of chickens is 20.\nWendi feeds each of her chickens three cups of mixed chicken feed.\nWendi gives her flock of chickens 15 cups of feed in the morning.\nWendi gives her flock of chickens another 25 cups of feed in the afternoon.\nWendi needs to give her chickens 3 cups of feed per chicken.\nW needs to give her chickens 20 * 3 = <<20*3=60>>60 cups of feed in the final meal of the day.", "correct": 1.0}
+{"output": " The first glass costs $5. The second glass costs $60% of $5 = $3. The third glass costs $5. The fourth glass costs $60% of $5 = $3. fifth glass costs $5. sixth glass costs $60% of $5 = $3. seventh glass costs $5. eighth glass costs $60% of $5 = $3. ninth glass costs $5. tenth glass costs $60% of $5 = $3. eleventh glass costs $5 twelfth glass costs $60% of $5 thirteenth glass costs $5 fourteenth glass costs $60% of $5 fifteenth glass costs $5 sixteenth glass costs $60% of $5", "correct": 0.0}
+{"output": " Seattle has 20 sheep.\nCharleston has 4 × 4 = <<4×480 sheep.\nToulouse has  × 2 =×240 sheep.\n20+480+240 = <<20+480+240=740>>740 sheep", "correct": 0.0}
+{"output": " 200 GB / 200 = 0.01 GB/minute.\n200 GB / 0.01 GB/minute = 20,000 minutes", "correct": 0.0}
+{"output": " John drives for 3 hours at a speed of 60 mph, so he travels 3 * 60 = 180 miles.\nHe spends the first 2 hours in standstill traffic, so he travels 2 * 0 = 0 miles.\nHe spends the next half-hour driving at a speed of 30mph, so he travels 0.5 * 30 = 15 miles.\nHe spends the remaining time of the 4 hours going at 80 mph, so he travels (4 - 2 - 0.5) = 1.5 hours, so he travels 1.5 * 80 = 120 miles.\nJohn travels 180 + 0 + 15 + 120 = 215 miles from home at the end of those 4 hours.", "correct": 0.0}
+{"output": " Eliza's earnings for the first 40 hours are 40 * $10 = $400.\nEliza's overtime pay is 1.2 * $10 = $12 per hour.\nEliza's earnings for the overtime hours are 5 * $12 = $60.\nEliza's total earnings = $400 + $60 = $460", "correct": 0.0}
+{"output": " The number of downloads in the second month was 60*3 = <<6*3=180>>180.\nThe number of downloads in the third month was 180*(1-0.3) = 1*0.7 = 0.7 = 0.7*100 = 70 = 70% of 100 = 70% of 180 = 126 = 126/100 = 1.26 = 1.26*100 = 126.\nThe total number of downloads over the three months was 60+180+126 = <<60+180+126=366>>366.", "correct": 0.0}
+{"output": " 3 dozen donuts cost $68 × $68 per dozen = $68 × 3 = $204", "correct": 0.0}
+{"output": " Carlos needs to sell 7 lemons to start earning money.\n7 lemons / $1.5 = <<7/1.5=4.666666666666667>>4.666666666666667 years", "correct": 0.0}
+{"output": " 5 * 2 = <<5*2=10>>10 vacuum cleaners at the red house.\n10 + 2 + 10 = <<1+2+10=13>>13 vacuum cleaners at the green house and red house.\n13 * 2 = <<13*2=26>>26 vacuum cleaners at the orange house.\n26 + 13 = <<26+13=39>>39 vacuum cleaners started with", "correct": 0.0}
+{"output": " 20% of 20 = <<20% of 20=4>>4 students enrolled in contemporary dance.\n20 - 4 = 16 remaining students.\n25% of 16 = <<25% of 16=4>>4 students enrolled in jazz dance.\n16 - 4 = 12 remaining students.\n12% of 20 = <<12% of 20=2.4>>2.4 students enrolled in hip-hop dance.", "correct": 0.0}
+{"output": " profit jewelry = $5,000 * 2.5% = $5,000 * 0.025 = $125", "correct": 0.0}
+{"output": " The distance covered by each train in the two days is 80 miles + 150 = 158 miles.", "correct": 0.0}
+{"output": " Jill's annual salary as a teacher is $20 * 50 weeks = $1000.", "correct": 0.0}
+{"output": " 4 weeks = 4 × 28 = 28 days", "correct": 0.0}
+{"output": " The remaining distance is 12 - 4 = 8 miles.\nThe time she has left is 2 - 1 = 1 hour.\nThe speed she needs to walk the remaining distance is 8 miles / 1 = 8 miles per hour.", "correct": 0.0}
+{"output": " The remaining 24 liters of orange drink is two-thirds water, so 24 * 24 = <<2 * 24=48>>48 liters of water.", "correct": 0.0}
+{"output": " Samantha is now 31, so Raymond was 31 - 6 = <<31-6=25>>5 years old when Raymond's son was born.", "correct": 0.0}
+{"output": " Billy sold 3*1 + 2*2 + 3*0 = <<3*1 + 2*2 + 3*0=9>>9 DVDs on Tuesday.", "correct": 0.0}
+{"output": " The candle burns for 4 hours.\nThe candle will be shorter by centimeters.", "correct": 0.0}
+{"output": " $19.50 is 25% of the original price.\n$19.50 = 0.25 * original price", "correct": 0.0}
+{"output": " 5 packs of milk cost 5 * $3 = $15.\n4 apples cost 4 * $1.50 = $6.\nThe total cost of chicken meal, milk, and apples is $12 + $ + $ = $24.\nThe remaining amount of money Marie paid is $50 - $24 = $26.\nThe number of boxes of pizza.\nThe number of boxes of pizza Marie ordered is $26 / $8.50 = <<26/8.50=3.0588235294117646>>3.0588235294117646", "correct": 0.0}
+{"output": " 3 * $16.50 = $50.50 for shorts.\n3 * $22.50 = $67.5 for pants.\n3 * $42 = $126 for shoes.\n$50.50 + $67.5 + $126 = $244", "correct": 0.0}
+{"output": " 60 days × 15 = <<6×15=90>>90 servings of ice cream.\n90 × $4.00 = <<90×4.00=360.00>>360.00", "correct": 0.0}
+{"output": " 60 - 20 = 40 miles", "correct": 0.0}
+{"output": " the other pair of heels costs 33*33 = <<3*33=99>>99 dollars.\nthe boots cost 99+5 = <<99+5=104>>104 dollars.", "correct": 0.0}
+{"output": " Let Darrell's age be 7x and Allen's age be 11x.\n7x + 11x = 162", "correct": 0.0}
+{"output": " half the first one is 80/2 = <<80/2=40>>40.\n20 more than half the first one is 40+20 = <<40+20=60>>60.\n25% more than the first one is 80*80*1.25 = <<80*1.25=100>>100.\ntheir average guess is (80+60+100)/3 = <<(80+60+100)/3 = <<80+60+100/3=100>>100", "correct": 1.0}
+{"output": " 10 dogs × 0.5 = 0.5 hours per dog.\n0.5 × 10 = 5 hours", "correct": 0.0}
+{"output": " Let x be the number of silver coins. Then x + 30 = 110", "correct": 0.0}
+{"output": " half of Raymond's jewels = 40/2 = <<40/2=20>>20.\nAaron has 5 more jewels than 20 = 20+5 = <<20+5=25>>25.\nSiobhan has 2 fewer jewels than Aaron = 25-2 = <<25-2=233>>33.", "correct": 0.0}
+{"output": " 40/20 = 2", "correct": 0.0}
+{"output": " 2 yogurts a day * 30 = <<2*30=60>>60 yogurts", "correct": 0.0}
+{"output": " John has 13 lego sets.", "correct": 0.0}
+{"output": " John runs 3 hours the first day and half as much the other two days he runs.\nhalf as much the other two days he runs = 3/2 = 1.5 hours", "correct": 0.0}
+{"output": " Dana can run at 3 miles per hour * 3 = <<3*3=9>>9 miles per hour.\nDana can walk at 9 / 4 = <<9/4=2.25>>2.25 miles per hour.\nDana can travel 9 * 2 = <<9*2=18>>18 miles in two-thirds of the time.\nDana can travel 2.25 * 3 = <<2.25*3=6=13.5>>13.5 miles in one-third of the time.\nDana can travel 18 + 13.5 = <<1+13.5=14.5>>14.5 miles in six hours.", "correct": 0.0}
+{"output": " Suzy’s iPhone is 1 year old. Ben's iPhone is 2 times older than Suzy's iPhone, so Ben's iPhone is 2 * 2 = <<2*2=4>>4 years old. Brandon's iPhone is four times as old as Ben's iPhone, so Brandon's iPhone is 4 * 4 = <<4*4=16>>16 years old.", "correct": 0.0}
+{"output": " 400 + 400 = <<40+400=440>>440 feet", "correct": 0.0}
+{"output": " 5 × 8 = <<5 × 8=40>>40 pieces of pie were set out for the guests.\n40 - 14 = <<40-14=26>>26 pieces were taken by the guests.", "correct": 0.0}
+{"output": " 2000 - 1800 = 2000 - 1800 = 200 calories remaining.\n200 / 250 = 200 / 250 = 0.8 grams", "correct": 0.0}
+{"output": " 20 * $2.00 = $4.00", "correct": 1.0}
+{"output": " Meredith wrote 5 articles on Monday.\nMeredith wrote 2/5 times more articles on Tuesday than on Monday, so she wrote 5 + 2/5 * 5 = 15 articles on Tuesday.\nMeredith wrote twice the number of articles she wrote on Tuesday, so she wrote 15 * 2 = 30 articles on Wednesday.\nMeredith spent 4 hours to research and write about each article, so she spent 5 * 4 = 20 hours on Monday, 15 * 4 = 6 = 60 hours on Tuesday, and 30 * 4 = 120 hours on Wednesday.\nMeredith spent 20 + 60 + 120 = 200 hours in the three days.", "correct": 0.0}
+{"output": " 80+220+23 = <<80+220+23=323>>323", "correct": 0.0}
+{"output": " John spent $200 on blue ties.", "correct": 0.0}
+{"output": " 4 feet = 48 inches. 48/6 = <<48/6=8>>8 pieces.", "correct": 0.0}
+{"output": " 8*15 = <<8*15=120>>120 units in the building.\n120*3/4 = <<120*3/4=90>>90 unoccupied units in the building.\n#### 90", "correct": 0.0}
+{"output": " 252/12 = <<252/12=21>>21 dozen eggs per day.\n21*7 = <<21*7=147>>147", "correct": 0.0}
+{"output": " 3 hours", "correct": 0.0}
+{"output": " 30 × 1/4 = <<3×1/4=3/4>>3/4 pounds of comic books.\n15 - 3/4 = <<1-3/4=1/4>>1/4 pounds remaining.\n1/4 ÷ 1/2 = <<1/4÷1/2=2>>2 toys", "correct": 0.0}
+{"output": " The mechanic earned $60 × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40 = $ × 60 + $ × 40", "correct": 0.0}
+{"output": " Patchy has had thrice the number of adopted kittens, so 3 * 12 = <<3 * 12=36>>36 kittens.\nTrixie has had 12 kittens.\nThe Doubtfire family now have 36+12 = <<36+12=48>>48 kittens.\n#### 48", "correct": 0.0}
+{"output": " 30-2 = <<3-2=1>>1 lollipops remaining.\n1/2 = <<1/2=0.5>>0.5 bags", "correct": 0.0}
+{"output": " Peter can go to the movies 42/7 = <<42/7=6>>6 times.", "correct": 0.0}
+{"output": " The weight of the driver and the empty truck is 3755 pounds.\nThe weight limit of the bridge is 5000 pounds.\nThe weight of one box is 15 pounds.\nThe maximum number of boxes is 5000 - 3755/15 = <<5000/15=333.3333333333333>>333.", "correct": 0.0}
+{"output": " 25% of $40.00 is $10.00.\n$40.00 + $10.00 + $3.00 + $4.00 = $57.00", "correct": 0.0}
+{"output": " 6 clusters of 20 fruit each = 6 × 20 = 120 fruit.\n120 + 120 = 121 raspberries total.", "correct": 0.0}
+{"output": " 20% of 25 is 25 * 25 = 5.\n25 - 1 - 5 - 2 = <<25 - 1 - 5 - 2=17>>17", "correct": 0.0}
+{"output": " $500 + $800 = $1300", "correct": 0.0}
+{"output": " The value of the pension is $50,000/year. 5% of $50,000 is $2,500/year.", "correct": 0.0}
+{"output": " the first half of the year is $140 and the second is $140 *140*40*0.9 = $126", "correct": 0.0}
+{"output": " 100 miles / 4 = 0.25 miles per gallon.\n0.25 * 12 = 3 miles", "correct": 0.0}
+{"output": " Jim spends 2 hours watching TV and then reads for 2 hours.  He does this 3 times a week.  2 hours x 3 = <<2 x 3=6>>6 hours per week.  6 x 4 = <<6 x 4=24>>24 hours in 4 weeks.", "correct": 0.0}
+{"output": " four schools × 5 = <<four × 5=2020 players", "correct": 0.0}
+{"output": " There were 35 fewer rubies than diamonds, so 175 - 35 = 140 rubies.\nThere were twice the number of emeralds than the rubies, so 140 * 2 = 280 emeralds.\nThere were 175 diamonds, 35 fewer rubies than diamonds, and twice the number of emeralds than the rubies.", "correct": 0.0}
+{"output": " There are 60/2 = <<60/2=30>>30 boys.\nThere are 60+30 = <<60+30=90>>90 students.\nThere are 90/5 = <<90/5=18>>18 teachers.\n#### 18", "correct": 0.0}
+{"output": " $5 × 8 = $40", "correct": 0.0}
+{"output": " 5 × 15 = <<5×15=75>>75 students in dance classes on the weekdays.\n8 × 15 = <<8×15=120>>120 students on Saturday.\n75 + 120 = <<75+120=195>>195 students in total.\n195 × $15.00 = <<195×$15.00=$2925.00>>$2925.00", "correct": 0.0}
+{"output": " the second recipe has 20*20 = <<20*2=40>>40 instructions.\nKelian has 20+40 = <<20+40=60>>60 instructions to read to prepare the two dishes.\n#### 60", "correct": 1.0}
+{"output": " Tommy raises 43 * $3 = $129 from brownies and 23 * $4 = $92 from cheesecakes.\nTommy raises $129 + $92 = $221 altogether.", "correct": 0.0}
+{"output": " 5 × $150 = $750", "correct": 0.0}
+{"output": " marigolds: 12 * 2.74 = 2.74, rounded to $3.00. petunias: 9 * 1.87 = 16.83, rounded to $17.00. begonias: 17 * 2.12 = 36.04, rounded to $36.00.\nTotal: $3.00 + $17 + $36 = $56.00", "correct": 0.0}
+{"output": " The top level has 16 square footage.\nThe level below it has 16/2 = 8 square footage.\nThe level below that has 8/2 = 4 square footage.\nThe bottom level has 4/2 = 2 square footage.\nThe average square footage of a level is (16+8+4+2)/4 = <<(24+2)/4 = 26/4 = 6.5 square footage.", "correct": 0.0}
+{"output": " 180 days × 1 cup = <<18×1=18>>18 cups of dog food in the first year.\n110 - 18 = <<11-18=-7>>-7 cups of dog food remaining.\n180 - 7 = <<180-7=173>>173 days remaining.", "correct": 0.0}
+{"output": " Sarah does 400 pounds of laundry.\nRaymond does 400/2 = <<400/2=200>>200 pounds of laundry.\nDavid does 400*400 = <<400*40=16000>>16000 pounds", "correct": 0.0}
+{"output": " Vincent buys 18/3 = <<18/3=6>>6 packages of 3 for $2.50, which is $2.50 × 6 = $15.00. Vincent buys 18/2 = <<18/2=9>>9 packages of 2 for $1, which is $ × 9 = $9.00. Vincent saves $15.00 - $9 = $6.00", "correct": 0.0}
+{"output": " 30% of $100 is $100.", "correct": 0.0}
+{"output": " Two girls got 1/6 * 1/6 * 24 = <<1/6*1/6*24=4>>4 liters of water.\nTwo girls got 4 + 4 = <<4+4=8>>8 liters of water.\n24 - 8 = <<24-8=16>>16 liters of water were left.", "correct": 0.0}
+{"output": " Charlie had 10+21+23 = <<10+21+23=54>>54 stickers.\nCharlie gave 9+28 = <<9+28=37>>37 stickers.\nCharlie has 54-37 = <<5-37=-22>>-22 stickers left.", "correct": 0.0}
+{"output": " 4 times Grace's weight is 4 * 125 = 500 pounds.\nAlex's weight is 500 - 500 = 498 pounds.\nGrace's weight is 125 pounds.\nTheir combined weight is 125 + 498 = 603 pounds.", "correct": 0.0}
+{"output": " Dan plants 3*plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns.", "correct": 0.0}
+{"output": " Let x be the number of games they lost. Then they won x + 8.\nx + 8 + x = 22", "correct": 0.0}
+{"output": " He has been vacationing for 34 - 23 = 11 years.\nHe has been on four vacations a year, so he has been on four × 11 = 44 vacations.\nHe has one shirt from each vacation, so he has 44 quilt blocks in total.\n#### 44", "correct": 1.0}
+{"output": " The first time it rang four times.\nThe second time it rang for three times as long as the first time, so 4 × 3 = 4 × 3 = 12 = 12 times.\nThe third time, it rang for half as long as the second time, so 12/2 = 6 times.\nThe total = 4 +  +  = 4 + 12 + 6 = 22 times.", "correct": 0.0}
+{"output": " Sylvie's initial salary is $600.\nAfter five years, her salary is $600 * 1.10 = $660.\nAfter three more years, her salary is $660 * 1.10 = $726.", "correct": 0.0}
+{"output": " Marilyn sold 88,000/10 = <<88,000/10=8,800>>8,800 copies.\nHarald sold 88,000-8,800 = <<88,000-8,800=79,200>>79,200 copies.\n#### 79,200", "correct": 0.0}
+{"output": " 16 * .75 = <<16 * .75=12>>12 gift bags.\n12 * $2 = <<12 * $2=$2=24>>24", "correct": 0.0}
+{"output": " Ted needs to bring 20*10 = <<2*10=20>>20 lbs of potato salad for the adults.\nTed needs to bring 5/2*10 = <<5/2*10=25>>25 lbs of potato salad for the children.\nTed needs to bring 20+25 = <<20+25=45>>45 lbs of potato salad altogether.", "correct": 0.0}
+{"output": " Cindy has four pets. Marcia has two more than Cindy, so Marcia has four + 2 = <<four = six pets. Jan has three times Marcia, so Jan has six × 3 = <<sixteen pets.\nJan has sixteen pets, Marcia has six pets, and Cindy has four pets.\nsixteen + six + four = <<sixteen + six + four=260>>60 total pets.", "correct": 0.0}
+{"output": " James is 10 and is 1 year younger than Corey, so Corey is 10+1 = 11 years old.\nAmy is 2 years younger than Corey, so Amy is 11-2 = 9 years old.\nAmy is 5 years older than Jackson, so Jackson is 9-5 = 4 years old.", "correct": 0.0}
+{"output": " Gerald's original speed = 400 / 2 = 20 seconds.\nGerald's new speed = 20 * 20 = 40 seconds.\n#### 40", "correct": 0.0}
+{"output": " The number of dogs is 60.\nThe number of cats is 2 × 60 = 120.\nThe combined number of pet dogs and cats is 60 + 120 = 126.\nThe number of rabbits pets is 126 - 12 = 114.\nThe total number of pets in the neighborhood is 60 + 120 + 114 = 294.\n#### 294", "correct": 0.0}
+{"output": " 200 - 2/3 = 2/3 of the girls are not in the girl scout.\n2/3 of 200 = <<2/3 of 200=133.33333333333333>>133.33333333333333", "correct": 0.0}
+{"output": " James slept 9 * 2/3 * 9 = <<9*2/3=6>>6 hours.\nHarry slept 9 - 6 = <<9-6=3>>3 hours more than James.", "correct": 0.0}
+{"output": " 32/2 = <<32/2=16>>16 ounces of tomatoes were used.\n16 × 16 = <<16×16=16>>16 tomatoes were used.\n#### 16", "correct": 0.0}
+{"output": " 30 - 5 = <<3-5=-2>>-2 cars drove through the traffic jam in the first 15 minutes.", "correct": 0.0}
+{"output": " Mary has 2 ×40 = <<2×40=80>>80 potted plants in total.\nShe will give away 1×40 = <<1×40=40>>40 potted plants.\nShe will remain with 80-40 = <<80-40=40>>40 potted plants.", "correct": 0.0}
